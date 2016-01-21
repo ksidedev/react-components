@@ -14,7 +14,7 @@ class ToggleClass extends React.Component {
 
 	numUpdate(e) {
 		var toggle;
-		this.setState({cat: '10',colour: !this.state.colour});
+		this.setState({cat: '10',colour: !this.state.colour,txt: 'This is the updated text'});
 		// toggle = this.state.colour;
 	}
 

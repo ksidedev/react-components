@@ -9,6 +9,12 @@ body {
 	padding-top: 20px;
 }
 
+.container-fluid.outer-wrapper {
+  background-color: transparent;
+  box-shadow: none;
+  max-width: 1200px;
+}
+
 
 .link{
 	cursor: pointer;
@@ -70,6 +76,10 @@ body {
       padding: 8px 31px 6px;
       margin: 10px;
       display: block;
+  }
+
+  .no-padding {
+    padding: 0;
   }
 
   .padding-bottom20 {
