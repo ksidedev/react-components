@@ -8,6 +8,7 @@ var ShowHide = require('./components/ShowHide');
 var NumberIncrease = require('./components/NumberIncrease');
 var SelfIncrement = require('./components/SelfIncrement');
 var DynamicContent = require('./components/DynamicContent');
+var MountComponent = require('./components/MountComponent');
 
 
 var App = React.createClass({
@@ -27,5 +28,6 @@ ReactDOM.render(<Slider />, document.getElementById('slider'));
 ReactDOM.render(<ReferenceClass />, document.getElementById('referenceclass'));
 ReactDOM.render(<ShowHide />, document.getElementById('showhide'));
 ReactDOM.render(<SelfIncrement />, document.getElementById('selfincrement'));
-ReactDOM.render(<DynamicContent />, document.getElementById('dynamiccontent'));
 ReactDOM.render(<NumberIncrease />, document.getElementById('numberincrease'));
+ReactDOM.render(<DynamicContent />, document.getElementById('dynamiccontent'));
+ReactDOM.render(<MountComponent />, document.getElementById('mountcomponent'));

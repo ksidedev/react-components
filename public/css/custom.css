@@ -4,8 +4,8 @@ body {
 
 .outer-wrapper {
 	background-color: #fff;
-	box-shadow: 0 3px 10px rgba(0; 0; 0; 0.23); 0 3px 10px rgba(0; 0; 0; 0.16);
-	margin-top: 40px;
+	box-shadow: 0 1px 10px rgba(0; 0; 0; 0.03); 0 1px 1px rgba(0; 0; 0; 0.06);
+	margin-top: 10px;
 	padding-top: 20px;
 }
 
@@ -26,6 +26,15 @@ body {
 .alert {
   box-shadow: none;
   margin-top: 10px;
+}
+
+.alert{
+  margin: 10px;
+  padding: 3px 10px;
+}
+
+.btn {
+  margin-right: 10px;
 }
 
   .nopadding {
@@ -63,7 +72,19 @@ body {
       display: block;
   }
 
+  .padding-bottom20 {
+    padding-bottom: 20px;
+  }
+
+  .marginBottom20 {
+    margin-bottom: 20px;
+  }
+
   .marginBottom10 {
+    margin-bottom: 10px;
+  }
+
+  .marginTop20 {
     margin-bottom: 20px;
   }
 

@@ -23,21 +23,27 @@ class DynamicContent extends React.Component {
 	      return <PersonRow key={person.id} data={person} />
 	    })
 	    return (
-			<div>
-				7.) <div>
-			        	<div>{rows}</div>
-			      	</div>
-				<hr />
+
+			<div className="col-xs-12 outer-wrapper padding-bottom20">
+
+		    	<div className="panel panel-info"> 
+			    		<div className="panel-heading"> 
+			    			<h3 className="panel-title">Self Increment</h3> 
+			    		</div> 
+			    		<div className="panel-body"> 
+			    			<div>{rows}</div>
+						</div> 
+		    	</div>      		
 			</div>
 	    );
 	 }								
 }
 
 const PersonRow = (props) => {
-  return <p className="col-xs-6">
-    <span>{props.data.id + '.)' + ' '}</span>
-    <span>{props.data.name + ' ' + '(' + props.data.title + ')'}</span>
-  </p>
+  return <ul className="col-xs-6">
+    <li>{props.data.id + '.' + ' '}<span>{props.data.name + ' ' + '(' + props.data.title + ')'}</span></li>
+    
+  </ul>
 }
 
 module.exports = DynamicContent;

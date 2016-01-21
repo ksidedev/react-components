@@ -32,14 +32,20 @@ class SelfIncrement extends React.Component {
 		buttonColour = 'link'
 
 	    return (
-	    	<div>
-	    		<span>6.) </span>
-	      		<span>
-	      			<button className={buttonColour} onClick={this.selfIncrement.bind(this)}>Self Increment Interval</button> 
-	      			<span className="number"> {this.state.interval}</span>
-	      		</span>
-				<button className={buttonColour} onClick={this.stopSelfIncrement.bind(this)}>Stop Self incrementing</button>
-				<hr />
+			<div className="col-xs-12 outer-wrapper padding-bottom20">
+
+		    	<div className="panel panel-info"> 
+			    		<div className="panel-heading"> 
+			    			<h3 className="panel-title">Self Increment</h3> 
+			    		</div> 
+			    		<div className="panel-body"> 
+			    			<span>
+	      						<button className={buttonColour} onClick={this.selfIncrement.bind(this)}>Self Increment Interval</button> 
+	      						<span className="number"> {this.state.interval}</span>
+	      					</span>
+							<button className={buttonColour} onClick={this.stopSelfIncrement.bind(this)}>Stop Self incrementing</button>
+						</div> 
+		    	</div>      		
 			</div>
 	    )
   	}

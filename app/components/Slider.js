@@ -18,11 +18,17 @@ class Slider extends React.Component {
 
   	render(){
 	    return (
-	    	<div>
-	      		<span>2.)</span> 
-	    		<UpdateSlider sliderUpdate={this.sliderUpdate} />
-				<h3>{this.state.slidertext}</h3>
-				<hr />
+			<div className="col-xs-12 outer-wrapper padding-bottom20">
+
+		    	<div className="panel panel-info"> 
+			    		<div className="panel-heading"> 
+			    			<h3 className="panel-title">Slider</h3> 
+			    		</div> 
+			    		<div className="panel-body"> 
+			    			<UpdateSlider sliderUpdate={this.sliderUpdate} />
+							<h3>{this.state.slidertext}</h3>
+						</div> 
+		    	</div>      		
 			</div>
 	    )
   	}

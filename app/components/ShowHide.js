@@ -21,12 +21,20 @@ class ShowHide extends React.Component {
 		buttonColour = 'link'
 
 	    return (
-	    	<div>
-	    	<span>4.) </span>
-	      		<span>
-	      		<button className={buttonColour} onClick={this.hideShow.bind(this)}>Show / Hide</button> 
-	      		<span className={this.state.hide ? "show" : "hide"}> This will be hidden</span></span>
-				<hr />
+
+	    	<div className="col-xs-12 outer-wrapper padding-bottom20">
+
+		    	<div className="panel panel-info"> 
+			    		<div className="panel-heading"> 
+			    			<h3 className="panel-title">Slider</h3> 
+			    		</div> 
+			    		<div className="panel-body"> 
+			    			<span>
+	      						<button className={buttonColour} onClick={this.hideShow.bind(this)}>Show / Hide</button> 
+	      						<span className={this.state.hide ? "show" : "hide"}> This will be hidden</span>
+	      					</span>
+						</div> 
+		    	</div>      		
 			</div>
 	    )
   	}

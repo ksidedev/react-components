@@ -20,11 +20,17 @@ class ToggleClass extends React.Component {
 
   	render(){
 	    return (
-	    	<div>
-	    	<span>1.) </span>
-	      		<button onClick={this.numUpdate}>Click me</button>
-				<p className={this.state.colour ? "alert alert-warning" : "alert alert-success"}>{this.state.txt}</p>
-				<hr />
+	    	<div className="col-xs-12 outer-wrapper padding-bottom20">
+
+		    	<div className="panel panel-info"> 
+			    		<div className="panel-heading"> 
+			    			<h3 className="panel-title">Toggle Class</h3> 
+			    		</div> 
+			    		<div className="panel-body"> 
+			    			<button onClick={this.numUpdate}>Toggle class</button>
+							<p className={this.state.colour ? "alert alert-warning" : "alert alert-success"}>{this.state.txt}</p> 
+						</div> 
+		    	</div>      		
 			</div>
 	    )
   	}

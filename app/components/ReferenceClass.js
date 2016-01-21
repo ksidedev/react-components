@@ -18,12 +18,19 @@ class ReferenceClass extends React.Component {
 
   	render(){
 	    return (
-	    	<div>
-	      		<span>3.) </span> 
-	    		<span>I <Heart/> React</span>
-				<hr />
+
+	    	<div className="col-xs-12 outer-wrapper padding-bottom20">
+
+	    		<div className="panel panel-info"> 
+	    			<div className="panel-heading"> 
+		    			<h3 className="panel-title">Reference Another component</h3> 
+		    		</div> 
+		    		<div className="panel-body"> 
+    					<span>I <Heart/> React</span>
+					</div> 
+	    		</div>      		
 			</div>
-	    )
+	    );
   	}
 }
 
