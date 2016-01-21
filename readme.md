@@ -30,4 +30,4 @@ This project has [Node.js](https://nodejs.org/) as a core dependency. Please vis
 
 *	Details on contributing [can be found here](CONTRIBUTING.md)
 
-Copyright © 2015  [Ksidedev](http://ksidedev.com/)
+Copyright © 2015  [Ksidedev](http://ksidedev.com/) 

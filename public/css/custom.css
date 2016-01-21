@@ -1,103 +1,102 @@
 body {
-  background: rgba(0, 0, 0, 0) url("../images/transp_bg.png") repeat scroll 0 0 !important;
+    background: rgba(0,0,0,0) url(../images/transp_bg.png) repeat scroll 0 0 !important;
 }
 
 .outer-wrapper {
-	background-color: #fff;
-	box-shadow: 0 1px 10px rgba(0; 0; 0; 0.03); 0 1px 1px rgba(0; 0; 0; 0.06);
-	margin-top: 10px;
-	padding-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 1px 10px rgba(0; 0; 0; 0.03);
+    margin-top: 10px;
+    padding-top: 20px;
 }
 
 .container-fluid.outer-wrapper {
-  background-color: transparent;
-  box-shadow: none;
-  max-width: 1200px;
+    background-color: transparent;
+    box-shadow: none;
+    max-width: 1200px;
 }
 
-
-.link{
-	cursor: pointer;
+.link {
+    cursor: pointer;
 }
 
 .number {
-  color: inherit;
-  font-family: inherit;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.1;
-  padding: 10px;
+    color: inherit;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.1;
+    padding: 10px;
 }
 
 .alert {
-  box-shadow: none;
-  margin-top: 10px;
+    box-shadow: none;
+    margin-top: 10px;
 }
 
-.alert{
-  margin: 10px;
-  padding: 3px 10px;
+.alert {
+    margin: 10px;
+    padding: 3px 10px;
 }
 
 .btn {
-  margin-right: 10px;
+    margin-right: 10px;
 }
 
-  .nopadding {
-      background: #f9f2c9 none repeat scroll 0 0;
-      color: green;
-      font-family: inherit;
-      font-size: 20px;
-      font-weight: 500;
-      line-height: 1.1;
-      padding: 8px 31px 6px;
-      margin: 10px;
-  }
+.nopadding {
+    background: #f9f2c9 none repeat scroll 0 0;
+    color: green;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.1;
+    padding: 8px 31px 6px;
+    margin: 10px;
+}
 
-  .hide {
+.hide {
     background: #31B0D5 none repeat scroll 0 0;
-      color: #fff;
-      font-family: inherit;
-      font-size: 20px;
-      font-weight: 500;
-      line-height: 1.1;
-      padding: 8px 31px 6px;
-      margin: 10px;
-      display: none;
-  }
+    color: #fff;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.1;
+    padding: 8px 31px 6px;
+    margin: 10px;
+    display: none;
+}
 
-  .show {
+.show {
     background: #31B0D5 none repeat scroll 0 0;
-      color: #fff;
-      font-family: inherit;
-      font-size: 20px;
-      font-weight: 500;
-      line-height: 1.1;
-      padding: 8px 31px 6px;
-      margin: 10px;
-      display: block;
-  }
+    color: #fff;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.1;
+    padding: 8px 31px 6px;
+    margin: 10px;
+    display: block;
+}
 
-  .no-padding {
+.no-padding {
     padding: 0;
-  }
+}
 
-  .padding-bottom20 {
+.padding-bottom20 {
     padding-bottom: 20px;
-  }
+}
 
-  .marginBottom20 {
+.marginBottom20 {
     margin-bottom: 20px;
-  }
+}
 
-  .marginBottom10 {
+.marginBottom10 {
     margin-bottom: 10px;
-  }
+}
 
-  .marginTop20 {
+.marginTop20 {
     margin-bottom: 20px;
-  }
+}
 
-  .center {
+.center {
     text-align: center;
-  }
+}
