@@ -10,11 +10,16 @@ This project has [Node.js](https://nodejs.org/) as a core dependency. Please vis
 [NPM](https://www.npmjs.com/) and [Webpack](https://webpack.github.io/) have been used for package management where appropriate. 
 
 	$ git clone git@github.com/ksidedev/react-components.git
-	$ npm install
 	$ cd to the cloned file
+	$ npm install
+	$ npm install webpack-dev-server -g
 	$ npm start
 
-	
+Go to your browser and open your localhost and navigate to `/public` folder.
+
+For example: 
+`http://localhost:8082/public/`
+
 ## Project layout
 
 *	`gulp` contains all the task and build tooling
